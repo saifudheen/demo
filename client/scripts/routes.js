@@ -57,7 +57,7 @@ mailSender.run(function($rootScope,$location,$http,$route){
 
 var qs=$location.$$search;
 
-alert(qs.q);
+
 
         if(qs.q=='start_app') {
 
